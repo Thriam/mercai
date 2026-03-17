@@ -1,0 +1,11 @@
+langchain
+langchain-community
+chromadb
+faiss-cpu
+sentence-transformers
+streamlit
+transformers
+torch
+pypdf
+mistral
+Flask==3.0.3
