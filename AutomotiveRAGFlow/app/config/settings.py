@@ -11,8 +11,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 @dataclass
 class AppSettings:
     app_name: str = os.getenv("APP_NAME", "AutomotiveRAGFlow")
-    ollama_url: str = os.getenv("OLLAMA_URL", "http://localhost:11434")
-    ollama_model: str = os.getenv("OLLAMA_MODEL", "mistral:latest")
+    # Original Ollama:
+    # ollama_url: str = os.getenv("OLLAMA_URL", "http://localhost:11434")
+    # ollama_model: str = os.getenv("OLLAMA_MODEL", "mistral:latest")
+    openrouter_base_url: str = os.getenv("OPENROUTER_BASE_URL")
+    openrouter_model: str = os.getenv("OPENROUTER_MODEL")
+    openrouter_api_key: str = os.getenv("OPENROUTER_API_KEY")
     embedding_model: str = os.getenv(
         "EMBEDDING_MODEL",
         "sentence-transformers/all-MiniLM-L6-v2",

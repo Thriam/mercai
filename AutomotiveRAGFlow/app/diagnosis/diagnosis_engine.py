@@ -5,9 +5,15 @@ from app.diagnosis.confidence_scorer import ConfidenceScorer
 
 class DiagnosisEngine:
     def __init__(self, settings):
+        # Original Ollama:
+        # self.llm_client = LLMClient(
+        #     base_url=settings.ollama_url,
+        #     model_name=settings.ollama_model,
+        # )
         self.llm_client = LLMClient(
-            base_url=settings.ollama_url,
-            model_name=settings.ollama_model,
+            base_url=settings.openrouter_base_url,
+            model_name=settings.openrouter_model,
+            api_key=settings.openrouter_api_key,
         )
         self.confidence_scorer = ConfidenceScorer()
 
