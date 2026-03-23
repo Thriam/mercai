@@ -1,0 +1,20 @@
+[
+  {
+    "chunk_id": "cooling_system_manual_p1_c1",
+    "source": "cooling_system_manual.pdf",
+    "page": 1,
+    "text": "Cooling System – Overheating Diagnosis If a vehicle overheats after running for 15–30 minutes, the most common causes include: 1. Low coolant level due to leakage 2. Thermostat stuck closed 3. Radiator blockage or restricted airflow 4. Cooling fan failure 5. Water pump malfunction Inspection Steps: - Check coolant reservoir level - Inspect radiator for debris or clogging - Verify cooling fan operation when engine heats - Test thermostat opening temperature - Check for coolant leaks around hoses",
+    "metadata": {
+      "document_type": "manual"
+    }
+  },
+  {
+    "chunk_id": "cooling_system_manual_p1_c2",
+    "source": "cooling_system_manual.pdf",
+    "page": 1,
+    "text": "emperature - Check for coolant leaks around hoses and joints Symptoms: - Temperature gauge rising rapidly - Steam from engine bay - Coolant smell - Engine knocking at high temperature",
+    "metadata": {
+      "document_type": "manual"
+    }
+  }
+]

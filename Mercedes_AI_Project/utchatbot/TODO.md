@@ -1,1 +1,0 @@
-- [x] Step 1: Create TODO.md ✓&#10;- [x] Step 2: Edit utchatbot/public/index.html ✓&#10;- [x] Step 3: Verify edit success ✓&#10;- [x] Step 4: Suggest run command ✓&#10;- [x] Step 5: Complete task ✓

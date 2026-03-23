@@ -1,0 +1,11 @@
+[
+  {
+    "chunk_id": "starting_system_manual_p1_c1",
+    "source": "starting_system_manual.pdf",
+    "page": 1,
+    "text": "Engine Starting Problems If the engine does not start or cranks slowly: Possible Causes: 1. Weak or dead battery 2. Faulty starter motor 3. Corroded battery terminals 4. Ignition switch issues 5. Fuel delivery problems Inspection Steps: - Check battery voltage (should be above 12.4V) - Inspect battery terminals for corrosion - Listen for clicking sound during ignition - Verify fuel pump operation - Check starter motor response",
+    "metadata": {
+      "document_type": "manual"
+    }
+  }
+]
